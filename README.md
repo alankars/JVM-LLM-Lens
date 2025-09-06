@@ -139,3 +139,13 @@ Notes:
 - Sent Gemini model to Ollama: switch Provider to Gemini or set an Ollama model name.
 - Gemini key missing: set `GEMINI_API_KEY` in `.env`. Optionally set `GEMINI_MODEL`.
 - Empty jmap chart: the backend retries with stricter prompts and normalizes numbers; if still empty, share a histogram snippet to refine prompts.
+
+## Visuals
+
+![Upload & Settings](docs/visuals/upload.png)
+
+![Thread States](docs/visuals/thread-states.png)
+
+![Top Classes by Bytes](docs/visuals/jmap-top.png)
+
+![LLM Analysis](docs/visuals/analysis.png)
